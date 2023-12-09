@@ -1,0 +1,220 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    /*background-image: url(imagenes/Fresh\ Farmhouse_\ Photo.jpg);*/
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color:beige;
+    font-size: 28px;
+    margin: 0 0 0 15px;
+
+}
+a:hover{
+    color:#DEB887 ;
+    font-size: 32px;
+}
+h2{
+    color: beige;
+}
+header{
+    display:flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:  #3c3c3c;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.logo img{
+    margin-top: 20px;
+    height: 50px;
+    width: 90px;
+    border-radius: 50%;
+    border: 2px solid beige;
+    margin: 10px ;
+}
+
+/*header {
+    /*background-color:/*white; /*#BBBBBB;*/
+    /*background-image: url(imagenes/Fresh\ Farmhouse_\ Photo.jpg);*/
+    /*background-color: #3c3c3c/*#696969*/;
+    /*padding: 20px 0;
+    position: fixed;
+    width: 100%;
+   
+    top: 0;
+    left: 0;
+   
+    z-index: 200;
+}*/
+
+/*.caja{
+    opacity:value;
+    /*background-image: url(imagenes/Fresh\ Farmhouse_\ Photo.jpg);*/
+   /* width: 100%;
+    position: relative;
+    margin: 0 auto;
+}*/
+
+/*nav{
+    position: relative;
+    top:10%;
+    right: 0%;
+    background-color: opacity;
+    
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    /*text-transform: uppercase;*/
+   /* color:#DEB887;
+    /*font-weight: bold;*/
+    /*font-size: 38px;
+   /* text-decoration: none;*/
+/*}*/
+nav a:hover{
+    color:#c78c19;
+    text-decoration: none;
+}
+.logo img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 10px ;
+}
+.principal .titulo-principal{
+    margin: 15px 60px;
+    padding: 10px;
+    background-color: opacity;
+}
+
+
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+/* CSS para nuestra home*/
+div .banner{
+    display: flex;
+    width: 100%;
+    margin-top: 0px;
+   /* margin-bottom: 14px;*/
+   position: relative;
+   
+}
+div .banner p{
+    position: absolute;re44
+}
+/*.utensilios{
+    width: 120px;
+    border-radius: 50%;
+    /*float:left;*/
+    /*margin: 0 20px 20px 0;
+    
+}*/
+/*.borde{
+    border-radius: 5px ;
+    border-style: solid;
+    border-color: #696969;
+}*/
+
+.titulo-principal{
+    text-align: center;
+    font-size: 3em;
+    margin: 0 0 1em;
+    width: 50;
+    clear: left; 
+    font-weight: normal;
+}
+.principal p{
+    margin:  0 0 3em;
+    font-size: 25px;
+    color: rgb(199, 195, 179);
+   
+}
+.principal strong{
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+}
+.utensillos{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 2px solid beige;
+    float:left;
+    margin: 0 20px 20px 0;
+    
+}
+.utensillos:hover{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 2px solid beige;
+    float:left;
+    margin: 0 20px 20px 0;
+    transform: scaleX(-1);
+}
+.imagenDiferenciales{
+    width: 60%;
+}
+.mapa {
+    padding: 3em 0;
+    
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+.mapa iframe{
+    margin-left: 20%;
+}
+
+.video {
+    width: 560px;
+    margin: 1em auto;
+}
+.diferenciales{
+    width: 100%;
+    height: 340px;
+    border:1px solid black;
+    padding: 30px;
+    
+}
+.diferenciales ul{
+    padding-left: 95px;
+}
+.imagenDiferenciales{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 2px solid beige;
+    float:left;
+    margin: 0 20px 20px 0;
+    
+}
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
