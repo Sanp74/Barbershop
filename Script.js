@@ -62,3 +62,4 @@ anchoPage();
             caja_trasera_login.style.opacity = "1";
         }
 }
+//en PHP, el comando para cambiar de página es: header("location:index.html");

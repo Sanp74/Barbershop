@@ -26,6 +26,7 @@ header{
     background-color:  #3c3c3c;
 
 }
+
 .logo{
     display: flex;
     align-items: center;
@@ -40,48 +41,7 @@ header{
     margin: 10px ;
 }
 
-/*header {
-    /*background-color:/*white; /*#BBBBBB;*/
-    /*background-image: url(imagenes/Fresh\ Farmhouse_\ Photo.jpg);*/
-    /*background-color: #3c3c3c/*#696969*/;
-    /*padding: 20px 0;
-    position: fixed;
-    width: 100%;
-   
-    top: 0;
-    left: 0;
-   
-    z-index: 200;
-}*/
 
-/*.caja{
-    opacity:value;
-    /*background-image: url(imagenes/Fresh\ Farmhouse_\ Photo.jpg);*/
-   /* width: 100%;
-    position: relative;
-    margin: 0 auto;
-}*/
-
-/*nav{
-    position: relative;
-    top:10%;
-    right: 0%;
-    background-color: opacity;
-    
-}
-
-nav li{
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-nav a{
-    /*text-transform: uppercase;*/
-   /* color:#DEB887;
-    /*font-weight: bold;*/
-    /*font-size: 38px;
-   /* text-decoration: none;*/
-/*}*/
 nav a:hover{
     color:#c78c19;
     text-decoration: none;
@@ -104,37 +64,58 @@ main {
     width: 940px;
     margin: 0 auto;
 }
+.demo{
+    display: flex;
+}
 
+#afeitado_tradicional{
+border: 3px solid black;
+width:605px;
+margin-top: -480px;
+margin-left: 180px;
+font-family:Serif;
+color:white;
+font-size: 70px;
+text-shadow: 1px  0px 0px black,
+0px  1px 0px black,
+-1px  0px 0px black,
+0px -1px 0px black;
+}
 
 /* CSS para nuestra home*/
 div .banner{
+    z-index: -1;
     display: flex;
-    width: 100%;
-    margin-top: 0px;
+    width: 500px;
+    height:500px;
+    margin-left:230px;
    /* margin-bottom: 14px;*/
    position: relative;
    
 }
-div .banner p{
-    position: absolute;re44
+
+#barba{
+    margin-left:-30px;
 }
-/*.utensilios{
-    width: 120px;
-    border-radius: 50%;
-    /*float:left;*/
-    /*margin: 0 20px 20px 0;
-    
-}*/
-/*.borde{
-    border-radius: 5px ;
-    border-style: solid;
-    border-color: #696969;
-}*/
+
+#barba2{
+    margin-left:470px;
+    margin-top:-500px;
+}
+
+div .banner p{
+    position: absolute;
+}
+
+#first{
+    margin-top: 30px;
+}
 
 .titulo-principal{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 3em;
-    margin: 0 0 1em;
+    font-size: 6em;
+
     width: 50;
     clear: left; 
     font-weight: normal;
@@ -169,9 +150,9 @@ div .banner p{
     margin: 0 20px 20px 0;
     transform: scaleX(-1);
 }
-.imagenDiferenciales{
+/*.imagenDiferenciales{
     width: 60%;
-}
+}*/
 .mapa {
     padding: 3em 0;
     
@@ -185,36 +166,77 @@ div .banner p{
     margin-left: 20%;
 }
 
-.video {
-    width: 560px;
-    margin: 1em auto;
-}
 .diferenciales{
-    width: 100%;
-    height: 340px;
-    border:1px solid black;
-    padding: 30px;
+    z-index: 3;
+    width: 900px;
+    margin-left: 15px;
+    height: 300px;
+    border:3px solid black;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(105, 96, 43);
     
 }
+.diferenciales h3{
+    z-index: 2;
+    position:absolute;
+    margin-left:300px;
+    text-align: center;
+    font-size: 50px;
+    color: blanchedalmond;
+}
 .diferenciales ul{
+    z-index: 1;
+    position:absolute;
     padding-left: 95px;
+    font-size: 30px;
+    color: beige;
 }
 .imagenDiferenciales{
+    margin-top: 30px;
     width: 220px;
     height: 220px;
     border-radius: 50%;
     border: 2px solid beige;
     float:left;
-    margin: 0 20px 20px 0;
+    /*margin:0px 20px 20px 0px*/
+    margin-right:50px;
+    
+    
+} 
+.diferenciales-1{
+    display: flex;
+    align-items: center;
+}
+
+/*FOOTER*/
+
+.footer{
+    box-sizing: border-box ;
+    width: 100%;
+    background-color:#3c3c3c ;
+    /*text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;*/
     
 }
-footer{
-    text-align: center;
-    background: url(imagenes/bg.jpg);
-    padding: 40px;
+.footer img{
+    width: 90px;
+    height: 90px;
 }
-.copyright{
-    color:#FFFFFF;
-    font-size: 13px;
-    margin: 20px;
+.footer.grupo-1.box{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+#a{
+    margin-top:380px;
+}
+.titulo-centralizado{
+    margin-right: 100px;
+    width:500px;
 }
