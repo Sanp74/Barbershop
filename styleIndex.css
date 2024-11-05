@@ -224,7 +224,7 @@ div .banner p{
     width: 90px;
     height: 90px;
 }
-.footer.grupo-1.box{
+/*.footer.grupo-1.box{
     width: 100%;
     max-width: 1200px;
     margin: auto;
@@ -232,11 +232,45 @@ div .banner p{
     grid-template-columns: repeat(3, 1fr);
     grid-gap:50px;
     padding: 45px 0px;
-}
-#a{
+}*/
+/*#a{
     margin-top:380px;
-}
-.titulo-centralizado{
+}*/
+/*.titulo-centralizado{
     margin-right: 100px;
     width:500px;
+}*/
+
+.textoImagen{
+    background: url(/Img/Pin_em_Barberia.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    font-family:"Mr Dafoe", cursive;
+    font-size: 64px;
+    
+}
+
+.letraImagen{
+    text-align: center;
+    width: 50%;
+    color: #f8f9f9;
+
+}
+
+.since{
+    color: #f8f9f9;
+    text-align: end;
+}
+
+.entrar{
+    text-align: right;
+}
+
+.bodyInfo{
+    background: #3c3c3c;
+    
 }
