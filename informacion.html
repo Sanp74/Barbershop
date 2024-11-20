@@ -18,7 +18,7 @@
             <a href="#ubicacion">Ubicacion</a>
             <a href="">Galeria</a>
             <a href="https://www.tuturno.io">Turnos</a>
-            <a href="http://www.google.com">Contactos</a>
+            <a href="#contactos">Contactos</a>
         </nav>
     </header>
     <section class="sectionInfo">
@@ -84,8 +84,38 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.170077076315!2d-58.51371902495478!3d-34.65040747293753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc8548f285559%3A0x67840ac81bea6cdc!2sUlrico%20Schmidl%206396%2C%20C1440CFZ%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1731380098493!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
+    <section class="sectionForm">
+        <h3 class="contConsul">Contacto de consultas</h3>
+        <div class="formulario">
+            <form action="https://formspree.io/f/manwrale" method="post" class="formulario">
+                <fieldset>
+                <legend><b>Datos</b></legend>
+                <label for="nombre">Nombre[*]</label>
+                <input type="text" size="10" maxlength="20" required>
+                <label for="apellido">Apellido[*]</label>
+                <input type="text" size="10" maxlength="20" required> <br><br>
+                <label for="telefono">Telefono</label>
+                <input type="number" name="telefono" required>
+                <label for="tipoConsulta">Tipo de consulta</label>
+                <select name="tipoConsulta" id="">
+                    <option value="corte">Corte</option>
+                    <option value="barba">Barba</option>
+                    <option value="reflejos">Reflejos</option>
+                    <option value="color">Color</option>
+                    <option value="otraConsulta">Otra consulta</option>
+                </select><br><br>
+                <label for="correo">E-Mail</label>
+                <input type="email" name="correo" id="">
+                </fieldset><br></br>
+                <label for="comentarios">Escriba su consulta</label><br>
+                <textarea name="comentarios" id="" cols="100" rows="15"></textarea><br></br>
+                <input type="submit" value="Enviar">
+                <input type="submit" value="Borrar Datos">
+            </form>
+        </div>
+    </section>
 </body>
-<footer class="footer">
+<footer class="footer" id="contactos">
     <div class="grupo-1">
         <div class="box">
             <figure>
