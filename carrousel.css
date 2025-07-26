@@ -8,8 +8,8 @@ body{
     display: flex;
     align-items: center;
     justify-self: center;
-    background: #283048;
-    background: linear-gradient(to right, #859398, #283048);
+    background: #3c3c3c;
+    background: linear-gradient(to right, #645757, #3c3c3c);
     padding: 20px;
 }
 .container-carousel{   

@@ -25,6 +25,9 @@ time, mark, audio, video */
 	vertical-align: baseline;
 	
 }
+.principal{
+	box-shadow: 3px 0px 15px 15px black;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -34,10 +37,10 @@ body {
 	line-height: 1;
 	/*background-image: url(imagenes/Fresh\ Farmhouse_\ Photo.jpg);*/
 	/*background-color:S/*#DEB887*/;
-	background: #3C3B3F;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	
+	margin-top: 150px;
+	background: #3C3B3F;
+	background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
+	background: linear-gradient(to right, #605C3C, #3C3B3F);
 
 }
 /*css de carousel*/

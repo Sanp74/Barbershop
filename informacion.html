@@ -22,8 +22,8 @@
         </nav>
     </header>
     <section class="sectionInfo">
-    <div class="infoImagen">
-        <img src="Img/informacion1.jpg" alt="">
+    <div class="">
+        <img id="infoImagen" src="Img/informacion1.jpg" alt="">
     </div>
     <div class="infoTexto">
         <h1>Mangini Barbershop</h1>
@@ -90,9 +90,9 @@
             <form action="https://formspree.io/f/manwrale" method="post" class="formulario">
                 <fieldset>
                 <legend><b>Datos</b></legend>
-                <label for="nombre">Nombre[*]</label>
+                <label for="nombre">Nombre</label>
                 <input type="text" size="10" maxlength="20" required>
-                <label for="apellido">Apellido[*]</label>
+                <label for="apellido">Apellido</label>
                 <input type="text" size="10" maxlength="20" required> <br><br>
                 <label for="telefono">Telefono</label>
                 <input type="number" name="telefono" required>
@@ -109,13 +109,13 @@
                 </fieldset><br></br>
                 <label for="comentarios">Escriba su consulta</label><br>
                 <textarea name="comentarios" id="" cols="100" rows="15"></textarea><br></br>
-                <input type="submit" value="Enviar">
-                <input type="submit" value="Borrar Datos">
+                <input class="btn-form" type="submit" value="Enviar">
+                <input class="btn-form" type="submit" value="Borrar Datos">
             </form>
         </div>
     </section>
 </body>
-<footer class="footer" id="contactos">
+<footer class="pie" id="contactos">
     <div class="grupo-1">
         <div class="box">
             <figure>
@@ -125,7 +125,7 @@
             </figure>
         </div>
         <div class="box">
-            <h2>SIGUENOS</h2>
+            <h2>SEGUINOS</h2>
             <div class="RED-SOCIAL">
                 <a  href="https://www.facebook.com/p/Mangini-barber-shop-100054414522624/?locale=es_LA&_rdr">
                     <i class="fa-brands fa-facebook"></i>

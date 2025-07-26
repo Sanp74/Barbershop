@@ -19,6 +19,7 @@ h2{
     color: beige;
 }
 header{
+    box-shadow: 0px 0px 15px 10px black;
     display:flex;
     min-height: 70px;
     justify-content: space-between;
@@ -211,7 +212,8 @@ div .banner p{
 
 /*FOOTER*/
 
-.footer{
+.pie{
+    box-shadow: 0px 0px 15px 10px black;
     box-sizing: border-box ;
     width: 100%;
     background-color:#3c3c3c ;
@@ -221,11 +223,11 @@ div .banner p{
     text-align: center;
     
 }
-.footer img{
+.pie img{
     width: 90px;
     height: 90px;
 }
-.footer.grupo-1.box{
+.pie.grupo-1.box{
     width: 100%;
     max-width: 1200px;
     margin: auto;
@@ -346,19 +348,42 @@ box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.25);
     overflow: auto;
     font-size: 20px;
     align-content: center;
-    background: #4B79A1;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #3c3c3c;
+    background: -webkit-linear-gradient(to right, #645757, #3c3c3c);
+    background: linear-gradient(to right, #645757, #3c3c3c);
 
+}
+
+#infoImagen{
+    height: 700px;
+    width: 600px;
+    border-radius: 10px;
 }
 
 .infoTexto{
+    margin-left: 70px;
+    margin-top:200px;
+    height: 300px;
+    width: 520px;
+    border: solid rgb(156, 156, 135) 10px;
+    background-color: #3c3c3c;
     text-align: center;
     align-content: center;
     display: flexbox;
+    color: beige;
+}
+
+.infoTexto h1{
+    margin-left: 100px;
+    margin-top:10px;
+    height: 30px;
+    width: 300px;
+    border: solid beige 5px;
 }
 
 .sectionInfo{
+    padding-top: 40px;
+    padding-left: 10px;
     display: flex;
 }
 .presentacion{
@@ -391,6 +416,12 @@ p{
     text-align: center;
     
 }
+
+.video h1{
+    color: white;
+    background-color: #81644c;
+}
+
 video{
     background: black;
     width: 80%;
@@ -404,10 +435,11 @@ video{
 }
 
 .ubicacion h1{
+    background-color: brown;
     color:#f8f9f9;
 }
 .ubicacion p{
-    color:#f8f9f9;
+    color:#d30202;
 }
 
 .sectionPresentacion{
@@ -422,7 +454,12 @@ video{
 }
 
 .sectionForm{
-    background-color: #81644c;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: solid beige 5px;
+    background-color: #3c3c3c;
+    color: beige;
 }
 
 .contConsul{
@@ -432,6 +469,13 @@ video{
 .formulario{
     text-align: center;
 }
+
+.btn-form{
+    border: solid beige 2px;
+    background-color: #3c3c3c;
+    color: beige;
+}
+
 /*carrousel
 *{
     padding: 0;
